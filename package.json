@@ -1,0 +1,11 @@
+{
+  "name": "jwt-secret-gen",
+  "version": "1.0.0",
+  "description": "Generate JWT HMAC secrets locally (HS256/HS384/HS512). Zero dependencies, no network.",
+  "bin": { "jwt-secret-gen": "./bin/generate.js" },
+  "files": ["bin"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "keywords": ["jwt", "jwt-secret", "secrets", "security", "cli", "hs256", "hs512"],
+  "homepage": "https://jwtsecretkeygenerator.org/"
+}
